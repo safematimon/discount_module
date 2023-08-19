@@ -1,0 +1,31 @@
+.Navbar{
+  display: flex;
+  place-content: space-between;
+  align-items: center;
+  .menu{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .custom-badge {
+      svg{
+        color: white;
+        height: 1.8rem;
+      }
+      cursor: pointer;
+    }
+  }
+}
+
+.home{
+  svg{
+    padding-top: 15px;
+    color: white;
+    height: 1.8rem;
+  }
+}

@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.ant-layout-header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.ant-layout-footer{
+  background-color: #001529;
+  color: #F5F4F1 ;
+  font-size: 1.2rem;
+}
